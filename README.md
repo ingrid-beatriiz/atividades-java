@@ -1,11 +1,12 @@
-# 🧠 Lista de Exercícios - Vetores em Java
+# 💻 Lista de Exercícios - Vetores em Java
 
-Este repositório contém a resolução de 10 exercícios de programação em Java com foco no tema **Vetores**, conforme solicitado na disciplina de Programação Imperativa.
+Repositório com exercícios de vetores e ordenação desenvolvidos em Java, como parte das atividades da disciplina de Programação.
 
 ---
 
 ## 📚 Exercícios Resolvidos
 
+### 🧠 **Parte 1 - Vetores**
 | Arquivo      | Descrição                                                                 |
 |--------------|---------------------------------------------------------------------------|
 | `Ex01.java`  | Operações básicas com vetor fixo (atribuição, soma, modificação e print)  |
@@ -21,13 +22,22 @@ Este repositório contém a resolução de 10 exercícios de programação em Ja
 
 ---
 
+### 🧠 **Parte 2 - Vetores + Ordenação**
+| Arquivo                | Descrição                                                             |
+|-------------------------|------------------------------------------------------------------------|
+| `VetorOrdenacao.java`   | Funções para preenchimento, impressão, ordenação, busca de maior ímpar e separação de pares e ímpares. Implementação prática com `Bubble Sort` e vetorização em Java. |
+
+---
+
 ## 🚀 Como Executar
 
-1. Clone este repositório ou baixe o `.zip`;
-2. Abra a pasta no [Visual Studio Code](https://vscode.dev) com suporte a Java;
+1. Clone este repositório ou baixe como `.zip`;
+2. Abra no [Visual Studio Code](https://vscode.dev) com suporte para Java;
 3. Compile e execute os arquivos individualmente.
 
-Exemplo para rodar no terminal:
+Exemplo:
 ```bash
 javac Ex01.java
 java Ex01
+javac VetorOrdenacao.java
+java VetorOrdenacao
