@@ -1,0 +1,31 @@
+Ana Souza
+2025001
+7.5
+Bruno Lima
+2025002
+4.2
+Carla Menezes
+2025003
+8.0
+Daniel Rocha
+2025004
+3.5
+Eduarda Nunes
+2025005
+9.1
+Felipe Silva
+2025006
+6.3
+Gabriela Melo
+2025007
+2.9
+Henrique Costa
+2025008
+5.0
+Isabela Torres
+2025009
+4.8
+João Victor
+2025010
+6.9
+

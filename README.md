@@ -23,9 +23,16 @@ Repositório com exercícios de vetores e ordenação desenvolvidos em Java, com
 ---
 
 ### 🧠 **Parte 2 - Vetores + Ordenação**
-| Arquivo                | Descrição                                                             |
-|-------------------------|------------------------------------------------------------------------|
+| Arquivo                | Descrição                                                                 |
+|-------------------------|--------------------------------------------------------------------------|
 | `VetorOrdenacao.java`   | Funções para preenchimento, impressão, ordenação, busca de maior ímpar e separação de pares e ímpares. Implementação prática com `Bubble Sort` e vetorização em Java. |
+
+---
+
+### 🧠 **Parte 3 - Vetores + Classe (POO)**
+| Arquivo                                | Descrição                                                                 |
+|----------------------------------------|---------------------------------------------------------------------------|
+| `Vetor de classes/Aluno.java` + `Vetor de classes/Principal.java` | Leitura dos dados de 10 alunos (nome, matrícula, média final), separando os aprovados e reprovados em dois vetores distintos, com base em uma média mínima de 5.0. Utiliza classe `Aluno` para organizar os dados. |
 
 ---
 
@@ -39,5 +46,7 @@ Exemplo:
 ```bash
 javac Ex01.java
 java Ex01
-javac VetorOrdenacao.java
-java VetorOrdenacao
+
+javac Vetor de classes/Aluno.java
+javac Vetor de classes/Principal.java
+java Vetor de classes.Principal
