@@ -23,18 +23,35 @@ public class ControleEstoque {
             System.out.println("0 - Sair");
             System.out.print("Escolha uma opção: ");
             opcao = input.nextInt();
-            input.nextLine(); 
+            input.nextLine();
 
             switch (opcao) {
-                case 1: cadastrar(); break;
-                case 2: listar(); break;
-                case 3: filtrarCategoria(); break;
-                case 4: ordenarPorNome(); break;
-                case 5: remover(); break;
-                case 6: atualizarPreco(); break;
-                case 7: listarComSubtotal(); break;
-                case 0: System.out.println("Saindo..."); break;
-                default: System.out.println("Opção inválida.");
+                case 1:
+                    cadastrar();
+                    break;
+                case 2:
+                    listar();
+                    break;
+                case 3:
+                    filtrarCategoria();
+                    break;
+                case 4:
+                    ordenarPorNome();
+                    break;
+                case 5:
+                    remover();
+                    break;
+                case 6:
+                    atualizarPreco();
+                    break;
+                case 7:
+                    listarComSubtotal();
+                    break;
+                case 0:
+                    System.out.println("Saindo...");
+                    break;
+                default:
+                    System.out.println("Opção inválida.");
             }
         } while (opcao != 0);
     }
@@ -44,15 +61,17 @@ public class ControleEstoque {
             System.out.print("Nome: ");
             String nome = input.nextLine();
             System.out.print("Qtd estoque: ");
-            int qtd = input.nextInt();
+            String qtdString = input.nextLine();
+            int qtd = Integer.parseInt(qtdString);
             System.out.print("Preço unitário: ");
-            double preco = input.nextDouble();
-            input.nextLine();
+            String precoString = input.nextLine();
+            double preco = Double.parseDouble(precoString);
             System.out.print("Categoria: ");
             String categoria = input.nextLine();
             System.out.print("Qtd mínima: ");
-            int qtdMinima = input.nextInt();
-            input.nextLine(); 
+            String qtdMinimaString = input.nextLine();
+            int qtdMinima = Integer.parseInt(qtdMinimaString);
+            input.nextLine();
 
             produtos[totalProdutos] = new Produto(nome, qtd, preco, categoria, qtdMinima);
             totalProdutos++;
